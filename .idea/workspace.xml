@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="a561e8fe-6a6e-4cc2-aec5-10cc19e71127" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ProjectId" id="1pKHbUZguPmCjWnmHxoaAVQpwHi" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="a561e8fe-6a6e-4cc2-aec5-10cc19e71127" name="Default Changelist" comment="" />
+      <created>1614924933859</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1614924933859</updated>
+      <workItem from="1614924935420" duration="271000" />
+      <workItem from="1615486251470" duration="9261000" />
+      <workItem from="1616098551352" duration="44111000" />
+      <workItem from="1616380292165" duration="1229000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="924" y="168" key="#Inspections" timestamp="1616271700759">
+      <screen x="0" y="23" width="1680" height="949" />
+    </state>
+    <state x="924" y="168" key="#Inspections/0.23.1680.949@0.23.1680.949" timestamp="1616271700759" />
+    <state x="924" y="169" key="#Inspections/0.23.1680.954@0.23.1680.954" timestamp="1616213510697" />
+    <state x="817" y="293" width="670" height="676" key="search.everywhere.popup" timestamp="1616268568458">
+      <screen x="0" y="23" width="1680" height="949" />
+    </state>
+    <state x="817" y="293" width="670" height="676" key="search.everywhere.popup/0.23.1680.949@0.23.1680.949" timestamp="1616268568458" />
+  </component>
+</project>
