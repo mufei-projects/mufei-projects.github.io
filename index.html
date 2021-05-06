@@ -7,18 +7,25 @@
 <script src='scripts/page.js'></script>
 
 <!-- CSS -->
-<link rel="stylesheet" type="text/css" href="style/style.css">
+<link rel="stylesheet" type="text/css" href="style.css">
 
 <!-- HTML -->
 <body>
   <div class='outer-container'>
-
+    <div id = "welcomeMessage">
+      <p style="left:81px; top:296px; position:absolute;">Arrow Keys (&larr; &uarr; &rarr; &darr;): Move the person</p>
+      <button id="startGame" style="left:175px; top:362px; position:absolute;">Start Game</button>
+<!--      <img class='backGround'src="img/startScreen.png"/>-->
+    </div>
+    <div id = "gamePaused">
+      <p style="left:81px; top:296px; position:absolute;">Arrow Keys (&larr; &uarr; &rarr; &darr;): Move the person</p>
+      <button id="resumeGame" style="left:175px; top:362px; position:absolute;">Resume</button>
+    </div>
     <div class='game-window'>
       <div id = "loadingScreen">
         <h1>Mardi Gras Parade!</h1>
       </div>
       <div id="actualGame">
-
         <div id='player' class='playerObject'>
           <img class='player-avatar' src='img/person.png' height='50px'/> <!--person img: src='https://www.google.com/imgres?imgurl=http%3A%2F%2Fclipart-library.com%2Fnew_gallery%2F54-540691_others-clipart-helpful-person-generic-person.png&imgrefurl=http%3A%2F%2Fclipart-library.com%2Fclip-art%2F54-540691_others-clipart-helpful-person-generic-person.htm&tbnid=V19QgOYn0jYyzM&vet=12ahUKEwidx5GevcrnAhUJ0KwKHQynD9AQMygBegUIARCJAg..i&docid=hVn27RN51ga3yM&w=920&h=830&q=person&hl=en&ved=2ahUKEwidx5GevcrnAhUJ0KwKHQynD9AQMygBegUIARCJAg'-->
         </div>
@@ -56,7 +63,7 @@
         <span id="candyCounter">0</span>
       </div>
       <button id="settingsButton">Open settings panel</button>
-      <div id="settingsPanel">
+      <div id="settingsPanel" style="display: none;">
         <p>Item thrown from parade float every
         <input id = "throwingInput" type = "text" name = "throwingRate" placeholder="2000">
         milliseconds (min allowed value: 100)
@@ -68,9 +75,10 @@
       <div class = pauseGame>
         <button id = "pauseGameBtn">Pause Game</button>
       </div>
+
     </div> <!-- end status-window -->
 
   </div> <!-- end outer-container -->
-</body> 
+</body>
 
 </html>

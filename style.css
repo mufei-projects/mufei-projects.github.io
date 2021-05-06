@@ -13,8 +13,24 @@
   border-right: 3px solid #53f;
   float: left;
   position: relative;
+  overflow: hidden;
 }
-
+#welcomeMessage{
+  background-image: url("img/startScreen.png");
+  background-repeat: no-repeat;
+  width:800px;
+  height:600px;
+  position:absolute;
+  background-size: cover;
+}
+#gamePaused{
+  background-image: url("img/startScreen.png");
+  background-repeat: no-repeat;
+  width:800px;
+  height:600px;
+  position:absolute;
+  background-size: cover;
+}
 #loadingScreen{
   font-style: italic;
   font-size: large;
