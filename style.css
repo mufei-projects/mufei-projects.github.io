@@ -58,6 +58,11 @@ body{
   position: relative;
   z-index: 3;
 }
+hr{
+  height:1px;
+  background-color:black;
+  border:none;
+}
 .margin{
   margin-bottom: 1em;
 }
