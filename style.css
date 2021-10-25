@@ -33,9 +33,6 @@ body{
   background-size: cover;
 }
 #loadingScreen{
-  font-family: 'Poetsen One', sans-serif;
-  font-weight:400;
-  font-size: large;
   background: white;
   width:500px;
   height:100%;
@@ -44,8 +41,11 @@ body{
   justify-content: center;/*horizontally*/
   align-items: center;/*vertically*/
 }
-#actualGame{
 
+.mgp{
+  font-family: 'Poetsen One', sans-serif;
+  font-weight:400;
+  font-size: 40px;
 }
 .status-window {
   height: 100%;
