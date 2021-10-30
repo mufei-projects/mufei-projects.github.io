@@ -203,6 +203,7 @@ function keydownRouter(e) {
         case KEYS.up:
         case KEYS.down:
             movePerson(e.which);
+            e.preventDefault();
             break;
         default:
             console.log("Invalid input!");
@@ -408,7 +409,7 @@ function createItemDivString(itemIndex, type, imageString) {
         "src='img/" + imageString + "'/></div>";
 }
 
-// Throw the item. Meant to be run recursively using setTimeout, decreasing the 
+// Throw the item. Meant to be run recursively using setTimeout, decreasing the
 // number of iterationsLeft each time. You can also use your own implementation.
 // If the item is at it's final postion, start removing it.
 function updateThrownItemPosition(elementObj, xChange, yChange, iterationsLeft) {
