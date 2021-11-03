@@ -171,7 +171,9 @@ function pauseGame() {
     gwhGamePaused.show();
     gwhStatus.hide();
     $('.game-window').hide();
-    gwhSettingsPanel.hide();
+    openSettingsPanel = true;
+    settingsButtonClick();
+    // gwhSettingsPanel.hide();
     gamePaused = true;
 }
 
